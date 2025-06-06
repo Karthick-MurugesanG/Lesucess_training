@@ -11,7 +11,7 @@ class Node {
 }
 public class DoublyLinkedList {
     Node head = null;
-    public void insertEnd(int data) {
+    public void insertEnd(int data) {   
         Node newNode = new Node(data);
         if (head == null) head = newNode;
         else {
