@@ -1,6 +1,6 @@
 package day19
 
-def printFibonacci(int n) {
+int n=10 
  def a = 0, b = 1
  print "$a $b "
  for (int i = 2; i < n; i++) {
@@ -9,5 +9,3 @@ def printFibonacci(int n) {
  a = b
  b = next
  }
-}
-printFibonacci(10)
