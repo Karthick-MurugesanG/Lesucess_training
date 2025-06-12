@@ -1,10 +1,14 @@
 package day19
 
-def isPrime(int num) {
- if (num < 2) return false
+def num=17
+int n=0;
+ if (num < 2) print false
  for (int i = 2; i <= Math.sqrt(num); i++) {
- if (num % i == 0) return false
- }
- return true
+ if (num % i == 0) {
+	 n++
+	 break}
 }
-println isPrime(17)
+if (n==0)
+	print true;
+else
+	print false
